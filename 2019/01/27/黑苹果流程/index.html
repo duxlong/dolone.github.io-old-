@@ -182,7 +182,9 @@
 <p>回头看看我的老掉牙 MacBookPro，还是2012年的，囊中羞涩的我终于找到了出路，准备把台式机分出一块 SSD 安装黑苹果。</p>
 <p><a href="https://www.bilibili.com/video/av39351687?from=search&amp;seid=2129921307995869367" title="B站视频" target="_blank" rel="noopener">B站视频</a>中提供的百度网盘资源已经失效，所以我就另找途径研究，看了B站和 YouTube 的很多教程，始终一头雾水，很多人都没有说 EFI 文件是怎么创造出来的，就只说“你们去论坛找，跟你配置差不多的人提供的 EFI ，试试看能不能用”。</p>
 <p>经过几天的研究，我终于搞清楚，一个完整的 EFI 文件是怎么靠自己，一点一点加工出来，用它完成一个黑苹果，再逐渐完善的，在此分享给大家。</p>
-<h2 id="一、-制作-Clover-启动U盘，也可以用别人现成的，找配置与自己相似的-EFI-试试看"><a href="#一、-制作-Clover-启动U盘，也可以用别人现成的，找配置与自己相似的-EFI-试试看" class="headerlink" title="一、 制作 Clover 启动U盘，也可以用别人现成的，找配置与自己相似的 EFI 试试看"></a>一、 制作 Clover 启动U盘，也可以用别人现成的，找配置与自己相似的 EFI 试试看</h2><ol>
+<h2 id="一、-制作-Clover-启动U盘"><a href="#一、-制作-Clover-启动U盘" class="headerlink" title="一、 制作 Clover 启动U盘"></a>一、 制作 Clover 启动U盘</h2><ol>
+<li><p>用别人现成的 EFI，可以跳过此步骤</p>
+</li>
 <li><p>在 MAC OS 中用 Clover EFI bootloader 在U盘中创建带有 EFI-Clover 的启动盘</p>
 </li>
 <li><p>在 EFI-Clover-driver64UEFI 中根据需要加入 Clover 驱动</p>
@@ -261,7 +263,16 @@
 <li><p>使用 Windows 中的 EasyUEFI ，创建黑苹果安装盘的引导，引导文件是 EFI-Clover-CLOVERX64.efi</p>
 </li>
 </ol>
-<h2 id="六、-保存-Clover-启动U盘，它是不死启动盘，如果出错，可以用它引导启动-MAC-OS"><a href="#六、-保存-Clover-启动U盘，它是不死启动盘，如果出错，可以用它引导启动-MAC-OS" class="headerlink" title="六、 保存 Clover 启动U盘，它是不死启动盘，如果出错，可以用它引导启动 MAC OS"></a>六、 保存 Clover 启动U盘，它是不死启动盘，如果出错，可以用它引导启动 MAC OS</h2>
+<h2 id="六、-其他"><a href="#六、-其他" class="headerlink" title="六、 其他"></a>六、 其他</h2><ol>
+<li><p>保存 Clover 启动U盘，它是不死启动盘，如果出错，可以用它引导启动 MAC OS</p>
+</li>
+<li><p>推荐几个论坛、社区，供大家寻找参考</p>
+<p> <a href="http://bbs.pcbeta.com/search.php?mod=forum" target="_blank" rel="noopener">远景论坛</a>：国内黑苹果论坛，新注册需要邀请码，比较麻烦。</p>
+<p> <a href="http://blog.daliansky.net" target="_blank" rel="noopener">黑果小兵的部落格</a>：黑苹果高手的博客，很多高端技术，目前好像也在B站发视频了。</p>
+<p> <a href="https://www.tonymacx86.com" target="_blank" rel="noopener">Tonymacx86</a>：国外黑苹果论坛，提供各种工具，也有很多帖子值得参考，不知道是不是黑苹果的起源网站。</p>
+</li>
+</ol>
+
     </div>
     
     <div class="post-footer">
@@ -324,7 +335,7 @@
     <div class="widget">
         <h3 class="title">Table of Contents</h3>
         
-            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#一、-制作-Clover-启动U盘，也可以用别人现成的，找配置与自己相似的-EFI-试试看"><span class="toc-text">一、 制作 Clover 启动U盘，也可以用别人现成的，找配置与自己相似的 EFI 试试看</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二、-制作-MAC-OS-安装U盘（白苹果也可用此升级）"><span class="toc-text">二、 制作 MAC OS 安装U盘（白苹果也可用此升级）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#三、-设置-BIOS"><span class="toc-text">三、 设置 BIOS</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#四、-安装黑苹果"><span class="toc-text">四、 安装黑苹果</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#五、-U盘启动转化为硬盘启动"><span class="toc-text">五、 U盘启动转化为硬盘启动</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#六、-保存-Clover-启动U盘，它是不死启动盘，如果出错，可以用它引导启动-MAC-OS"><span class="toc-text">六、 保存 Clover 启动U盘，它是不死启动盘，如果出错，可以用它引导启动 MAC OS</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#一、-制作-Clover-启动U盘"><span class="toc-text">一、 制作 Clover 启动U盘</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二、-制作-MAC-OS-安装U盘（白苹果也可用此升级）"><span class="toc-text">二、 制作 MAC OS 安装U盘（白苹果也可用此升级）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#三、-设置-BIOS"><span class="toc-text">三、 设置 BIOS</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#四、-安装黑苹果"><span class="toc-text">四、 安装黑苹果</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#五、-U盘启动转化为硬盘启动"><span class="toc-text">五、 U盘启动转化为硬盘启动</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#六、-其他"><span class="toc-text">六、 其他</span></a></li></ol>
         
     </div>
 </aside>
